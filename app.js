@@ -2,7 +2,9 @@ const express = require('express');
 const app = express();
 const port = process.env.port || 4444;
 const things = require("./routes/things") ;
-//mıddleware
+//middleware
+///to handle every incoming json requets
+//for example to treat json object and transform it to other objects     
 app.use(express.json());
 //any thıng starts with /thıngs go to the fıle thıngs under routes dırectory 
 //you wıll fınd all endpoınts ın things.js                                                                                                                     
