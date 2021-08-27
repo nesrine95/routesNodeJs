@@ -1,0 +1,4 @@
+//GET
+GET http://localhost:4444/
+###
+GET http://localhost:4444/things/cars
